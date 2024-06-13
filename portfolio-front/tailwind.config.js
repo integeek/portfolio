@@ -4,6 +4,9 @@ module.exports = {
   theme: {
     extend: { colors: {
       "primaryB": "#151925",
+      "primaryC": "#01EEFF",
+
+
     },},
   },
   plugins: [require("daisyui"),],
