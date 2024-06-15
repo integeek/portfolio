@@ -1,7 +1,7 @@
 
 export default function Contact() {
   return (
-    <div className="bg-primaryB min-h-screen"> 
+    <div className="min-h-screen bg-primaryB"> 
       
     </div>
   )
