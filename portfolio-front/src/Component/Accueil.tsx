@@ -5,39 +5,39 @@ import { IoMail } from "react-icons/io5"
 
 export default function Accueil() {
   return (
-    <div className="bg-primaryB">
+    <div className="bg-primaryB min-h-screen">
       <div className="grid grid-cols-2 gap-4 py-48 pl-10"> {/*Division de la page en 2 colonnes*/} 
         <div className=""> {/*Colonne de gauche*/} 
-          <h2 className="mt-4 text-2xl text-left text-white font-sans font-extrabold">Bonjour, mon nom est</h2>
-          <h1 className="mt-2  font-sen font-extrabold text-4xl text-left text-white">Ambre Giraud-Lanza</h1>
+          <h2 className="mt-4 font-sans text-4xl font-extrabold text-left text-white">Bonjour, mon nom est</h2>
+          <h1 className="mt-2 font-extrabold text-left text-white font-sen text-7xl">Ambre Giraud-Lanza</h1>
           <div className="flex flex-row "> {/*Mettre sur la même ligne les 2 parties de la phrase*/} 
-            <h2 className="mt-2 text-2xl font-sans font-extrabold text-left text-white">Et je suis une  </h2>
-            <h2 className="mt-2 ml-2 text-2xl font-sans font-extrabold text-primaryC">Développeuse</h2>
+            <h2 className="mt-2 font-sans text-4xl font-extrabold text-left text-white">Et je suis une  </h2>
+            <h2 className="mt-2 ml-2 font-sans text-4xl font-extrabold text-primaryC">Développeuse</h2>
           </div>
-          <p className="mt-4 text-left">Je suis une développeuse web junior avec des compétences en front et back end.</p>
+          <p className="mt-4 text-2xl text-left">Je suis une développeuse web junior avec des compétences en front et back end.</p>
 
           <div className="flex mt-4 space-x-4">
             <a
               href="https://github.com/integeek"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 rounded-full hover:border-4 hover:border-primaryC transition duration-300"
+              className="p-2 transition duration-300 rounded-full hover:border-4 hover:border-primaryC"
             > 
-              <FaGithub className="text-primaryC w-8 h-8" />
+              <FaGithub className="w-8 h-8 text-primaryC" />
             </a>
             <a
               href="https://fr.linkedin.com/in/ambre-giraud-lanza-069201236 "
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 rounded-full hover:border-4 hover:border-primaryC transition duration-300"
+              className="p-2 transition duration-300 rounded-full hover:border-4 hover:border-primaryC"
             >
-              <FaLinkedin className="text-primaryC w-8 h-8" />
+              <FaLinkedin className="w-8 h-8 text-primaryC" />
             </a>
             <a
               href="mailto:ambre.giraudlanza@outlook.fr"
-              className="p-2 rounded-full hover:border-4 hover:border-primaryC transition duration-300"
+              className="p-2 transition duration-300 rounded-full hover:border-4 hover:border-primaryC"
             >
-              <IoMail className="text-primaryC w-8 h-8" />
+              <IoMail className="w-8 h-8 text-primaryC" />
             </a>
           </div>
 
