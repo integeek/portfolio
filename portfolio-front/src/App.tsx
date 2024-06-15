@@ -4,6 +4,7 @@ import "./App.css"
 import Navbar from "./Component/Navbar"
 import Accueil from "./Component/Accueil"
 import Apropos from "./Component/Apropos"
+import MesCompetences from "./Component/Mescompetences"
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Accueil />
       <Apropos />
+      <MesCompetences />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
